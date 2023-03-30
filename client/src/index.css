@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/************************************************************* DEFAULT STYLING ************************************************************/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+::-webkit-scrollbar 
+{
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb 
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 100%);
+  background: #bbb;
+}
+::-webkit-scrollbar-track 
+{
+  -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 100%);
+  border-radius: 12px;
+  border: 3px solid #fff;
+  background: #bbb;
+}
+
+/************************************************************* LAYOUT STYLING ************************************************************/
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/************************************************************* CUSTOM STYLING ************************************************************/
+.ant-layout-sider
+{
+  /* box-sizing: border-box;
+  min-height: 100vh; */
+  height: 100vh !important;
+}
+.ant-layout-header span svg
+{
+  font-size: 3rem !important;
+  width: 1.5rem !important;
+  margin-left: 0.5rem !important;
+}
+.ant-layout-header
+{
+  box-shadow: 10px 10px 10px #f0f1f2 !important;
+}
+.ant-layout-content
+{
+  margin: 0 !important;
+  padding: 10px !important; 
+}
+.ant-menu-item
+{
+  margin-top: 25px !important;
+}
+.sweet-loading
+{
+  position:fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  z-index: 9999;
+}
+p
+{
+  font-size: 1rem !important;
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+}
+button
+{
+  background-color: #1890ff !important;
+  color: #fff !important;
+}
+input, textarea
+{
+  border: 2px solid #1890ff !important;
+  font-family: 'Comfortaa', cursive !important;
+  box-shadow: none !important;
+}
+.ant-form-item-label
+{
+  font-family: 'Comfortaa', cursive !important;
+  margin-top: 15px !important;
+}
+.ant-message
+{
+  font-family: 'Comfortaa', cursive !important;
+  z-index: 9999 !important;
+}
+.addm, .savem, .del, .prevm
+{
+  font-family: 'Comfortaa', cursive !important;
+}
+.addm:hover, .savem:hover
+{
+  background-color: #52c41a !important;
+}
+.del:hover
+{
+  background-color: #ff4d4f !important;
+}
+.ant-btn{
+  height: 34px !important;
+}
+.login
+{
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  background-size: 200% 200%;
+  animation: gradient 8s ease infinite;
+  height: 100vh !important;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.head1
+{
+  border-top: 30px solid rgb(16 185 129 / var(--tw-border-opacity));
+}
+.head2
+{
+  border-bottom: 30px solid rgb(234 179 8 / var(--tw-border-opacity));
+}
+.anticon
+{
+  height: 25px !important;
+  margin-right: 8px;
+}
