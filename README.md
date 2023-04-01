@@ -31,6 +31,6 @@ https://workvent.onrender.com
 <details>
     <summary><h3>👨‍🏫Snapshots</h3></summary> <br>
     <img src="https://user-images.githubusercontent.com/76837650/228854464-f90b358e-d4d2-498c-b621-c944d18750f7.png" alt="Register"> &nbsp; &nbsp;
-    <img src="https://user-images.githubusercontent.com/76837650/228854503-e0f1e3d8-48fa-4c18-8fd4-bd4fd7e5a0bb.png" alt="Home"> &nbsp; &nbsp;
+    <img src="https://user-images.githubusercontent.com/76837650/229308583-8adf3557-3b12-4cd9-b306-81a37b811811.png" alt="Home"> &nbsp; &nbsp;
     <img src="https://user-images.githubusercontent.com/76837650/228854506-483cc118-1634-4d89-bf6c-8b9e2310ce7c.png" alt="Interview"> &nbsp; &nbsp;
 </details>
